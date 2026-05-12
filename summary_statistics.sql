@@ -1,4 +1,4 @@
--- Payments
+-- Sales
 WITH rowCTE AS (
 	SELECT
 		ROW_NUMBER() OVER(ORDER BY payment_value) row_position,
